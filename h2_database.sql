@@ -1,0 +1,2 @@
+CREATE TABLE IF NOT EXISTS milestones (milestone_id int auto_increment primary key, milestone_name varchar(100), milestone_description varchar(500), milestone_start_date datetime, milestone_completion_date datetime, person_name varchar(100));
+CREATE TABLE IF NOT EXISTS users (user_id int auto_increment primary key, first_name varchar(50), last_name varchar(50), email_address varchar(100), password char(60), reg_date datetime);

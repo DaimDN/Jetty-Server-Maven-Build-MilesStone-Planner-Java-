@@ -1,2 +1,2 @@
-# Web Development 2
+# Todo List Planner created using Jetty and Maven
 
